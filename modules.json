@@ -1,9 +1,13 @@
 [{
   "taskName": "buildServerShop",
-  "src": "../admin-panel/server/components/shop/*",
-  "dest": "modules/shop/server"
+  "src": "../platform/admin-panel/server/components/shop/*",
+  "dest": "../modules/shop/server"
 }, {
   "taskName": "buildManagerShop",
-  "src": "../admin-panel/manager_dev/src/modules/shop/*",
-  "dest": "modules/shop/manager"
+  "src": "../platform/admin-panel/manager_dev/src/modules/shop/*",
+  "dest": "../modules/shop/manager"
+}, {
+  "taskName": "buildServerSmsc",
+  "src": "../platform/admin-panel/server/components/smsc/*",
+  "dest": "../modules/smsc/server"
 }]
