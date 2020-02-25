@@ -1,13 +1,17 @@
-[{
-  "taskName": "buildServerShop",
-  "src": "../platform/admin-panel/server/components/shop/*",
-  "dest": "../modules/shop/server"
-}, {
-  "taskName": "buildManagerShop",
-  "src": "../platform/admin-panel/manager_dev/src/modules/shop/*",
-  "dest": "../modules/shop/manager"
-}, {
-  "taskName": "buildServerSmsc",
-  "src": "../platform/admin-panel/server/components/smsc/*",
-  "dest": "../modules/smsc/server"
-}]
+[
+  {
+    "taskName": "buildServerShop",
+    "src": "../vn-cms/server/components/shop/**",
+    "dest": "../modules/shop/server"
+  },
+  {
+    "taskName": "buildManagerShop",
+    "src": "../vn-cms/manager_dev/src/modules/shop/**",
+    "dest": "../modules/shop/manager"
+  },
+  {
+    "taskName": "buildServerSmsc",
+    "src": "../vn-cms/server/components/smsc/**",
+    "dest": "../modules/smsc/server"
+  }
+]
