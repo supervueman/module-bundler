@@ -13,5 +13,10 @@
     "taskName": "buildServerSmsc",
     "src": "../vn-cms/server/components/smsc/**",
     "dest": "../modules/smsc/server"
+  },
+  {
+    "taskName": "buildManagerSmsc",
+    "src": "../vn-cms/manager_dev/src/modules/smsc/**",
+    "dest": "../modules/smsc/manager"
   }
 ]
