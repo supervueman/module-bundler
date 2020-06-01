@@ -18,5 +18,15 @@
     "taskName": "buildManagerSmsc",
     "src": "../vn-cms/manager_dev/src/modules/smsc/**",
     "dest": "../modules/smsc/manager"
+  },
+  {
+    "taskName": "buildServerPushNotifications",
+    "src": "../vn-cms/server/components/push-notifications/**",
+    "dest": "../modules/push-notifications/server"
+  },
+  {
+    "taskName": "buildManagerPushNotifications",
+    "src": "../vn-cms/manager_dev/src/modules/push-notifications/**",
+    "dest": "../modules/push-notifications/manager"
   }
 ]
