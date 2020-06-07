@@ -1,7 +1,7 @@
 [
   {
     "taskName": "buildServerShop",
-    "src": "../vn-cms/server/components/shop/**",
+    "src": "../vn-cms/server/modules/shop/**",
     "dest": "../modules/shop/server"
   },
   {
@@ -11,7 +11,7 @@
   },
   {
     "taskName": "buildServerSmsc",
-    "src": "../vn-cms/server/components/smsc/**",
+    "src": "../vn-cms/server/modules/smsc/**",
     "dest": "../modules/smsc/server"
   },
   {
@@ -21,7 +21,7 @@
   },
   {
     "taskName": "buildServerPushNotifications",
-    "src": "../vn-cms/server/components/push-notifications/**",
+    "src": "../vn-cms/server/modules/push-notifications/**",
     "dest": "../modules/push-notifications/server"
   },
   {
