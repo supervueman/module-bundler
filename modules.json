@@ -28,5 +28,15 @@
     "taskName": "buildManagerPushNotifications",
     "src": "../vn-cms/manager_dev/src/modules/push-notifications/**",
     "dest": "../modules/push-notifications/manager"
+  },
+  {
+    "taskName": "buildServerChat",
+    "src": "../vn-cms/server/modules/chat/**",
+    "dest": "../modules/chat/server"
+  },
+  {
+    "taskName": "buildManagerChat",
+    "src": "../vn-cms/manager_dev/src/modules/chat/**",
+    "dest": "../modules/chat/manager"
   }
 ]
